@@ -21,77 +21,6 @@
 
 ---
 
-## ⚡ What I build
-
-```
-Pre-train VLA models from scratch  →  compress via distillation + INT8/FP16  →  deploy on edge
-```
-
-> ML researcher with **3 years** designing Vision Language Action (VLA) models end-to-end.
-> Owned workflows for **15,000+ hours** of multi-sensor robot data. Built a semi-supervised framework cutting labelling overhead by ~60%. Achieved **3–5× inference speedup** via knowledge distillation + post-training quantisation. Published at **IROS 2025** (lead author, presented in China).
-
----
-
-## 🛠 Tech Stack
-
-### Core ML & Vision
-<p>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/JAX-A020F0?style=for-the-badge&logo=google&logoColor=white" />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
-  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
-</p>
-
-### Deployment & Optimisation
-<p>
-  <img src="https://img.shields.io/badge/TensorRT-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
-  <img src="https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white" />
-  <img src="https://img.shields.io/badge/INT8%2FFP16-Quantisation-3C3489?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/Raspberry_Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white" />
-</p>
-
-### Robotics & Sensors
-<p>
-  <img src="https://img.shields.io/badge/ROS2-22314E?style=for-the-badge&logo=ros&logoColor=white" />
-  <img src="https://img.shields.io/badge/LiDAR-0C447C?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/RGB--D_Cameras-0F6E56?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/IMU-993C1D?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/Thermal_Cameras-BA7517?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/Multi--View_Stereo-533AB7?style=for-the-badge&logoColor=white" />
-</p>
-
-### MLOps & Infrastructure
-<p>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitLab_CI%2FCD-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" />
-  <img src="https://img.shields.io/badge/AWS_(S3,_EC2,_SageMaker)-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" />
-  <img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/W%26B-FFBE00?style=for-the-badge&logo=weightsandbiases&logoColor=black" />
-  <img src="https://img.shields.io/badge/ZeroMQ-DF0000?style=for-the-badge&logo=zeromq&logoColor=white" />
-  <img src="https://img.shields.io/badge/Ray_Serve-028CF0?style=for-the-badge&logo=ray&logoColor=white" />
-</p>
-
-### Languages
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
-</p>
-
-### Spoken Languages
-<p>
-  <img src="https://img.shields.io/badge/English-Fluent-3C3489?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/Hindi-Native-0C447C?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/Telugu-Native-085041?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/German-B1-993C1D?style=for-the-badge&logoColor=white" />
-</p>
-
----
-
 ## 🏆 Highlights
 
 | | |
@@ -102,35 +31,7 @@ Pre-train VLA models from scratch  →  compress via distillation + INT8/FP16  �
 | 🤸 **ISBS 2025** | Human pose estimation for at-home physiotherapy (MoveNet vs ViTPose) |
 | 🤖 **8× GPU Training** | Distributed diffusion model pretraining at >85% GPU utilisation |
 
----
 
-## 🔬 Key Projects
-
-<details>
-<summary><b>🤖 VLA Pretraining @ Ostfalia</b> — 15,000+ hrs multimodal robot data</summary>
-<br>
-Built a semi-supervised training framework cutting labelling cost by ~60% while staying within 2% of the supervised baseline. Ran distributed pretraining of diffusion models across 8+ GPUs at >85% utilisation. Built a simulation validation framework (Gym + ZeroMQ + ReRun) to gate training data quality before expensive pretraining runs.
-<br><br>
-<code>PyTorch</code> <code>ROS2</code> <code>LiDAR</code> <code>RGB-D</code> <code>Diffusion Models</code> <code>Docker</code> <code>Kubernetes</code>
-</details>
-
-<details>
-<summary><b>🔥 FireBot</b> — Award-winning fire detection robot (startup origin)</summary>
-<br>
-Designed fire detection pipeline from scratch via domain-adaptive fine-tuning of YOLOv5 on in-house labelled data. Deployed on constrained Raspberry Pi hardware using INT8 quantisation + ONNX compression — achieved <b>5× speedup with only 2% accuracy loss</b>. Survived a full-stack migration from ROS Noetic to ROS2. Won €1,000 innovation prize and later secured €98,000 EXIST grant as Warden Robotics.
-<br><br>
-<code>YOLOv5</code> <code>INT8</code> <code>ONNX</code> <code>ROS2</code> <code>Raspberry Pi</code> <code>Domain Adaptation</code>
-</details>
-
-<details>
-<summary><b>🦴 ARTEMIS</b> — AI musculoskeletal disorders study (30 TB CT data)</summary>
-<br>
-Delivered patient insights across seven 3D CT datasets exceeding 30 TB on compliance-constrained remote servers. Built a CI/CD pipeline using Docker to enforce sanity checks locally before deployment, eliminating CUDA/package version conflicts for distributed GPU training. Published at MIUA 2024.
-<br><br>
-<code>3D CT</code> <code>Docker</code> <code>CI/CD</code> <code>Weights & Biases</code> <code>Distributed Training</code>
-</details>
-
----
 
 ## 📚 Publications
 
